@@ -1,0 +1,90 @@
+.contacts
+  padding-top 100px
+  .title
+    margin-bottom 30px
+    h2
+      color $BK_ONE
+  &-tabs
+    ul
+      display flex
+      align-items center
+      li  
+        margin-right 65px
+        transition $tr
+        &:last-child
+          margin-right 0
+        &.active
+          span
+            &::before
+              opacity 1
+        span
+          display inline-flex
+          height 60px
+          align-items center
+          font-family $Medium
+          color $BK_TWO
+          cursor pointer
+          position relative
+          &::before
+            content ''
+            position absolute
+            bottom 0  
+            transition $tr
+            left 0
+            width 100%
+            height 1px
+            background $BK_TWO
+            opacity 0
+
+.contacts
+  &-left
+    padding-top 30px
+  
+  &-item
+    display flex
+    justify-content space-between
+  &-right
+    width 66.6666666667%
+  &-left
+    width 27.8787878788%
+    > a
+      font-size 22px
+      font-weight $Light
+      display block
+      color $BK_ONE
+      margin-bottom 10px
+    address
+      font-size 15px
+      font-family $Light
+      color $BK_ONE
+      margin-top 30px
+      display block
+    .button
+      display inline-flex
+      margin-top 30px
+      padding-left 30px
+      padding-right 30px
+      height 40px
+  &-form
+    margin-top 30px
+    h4
+      margin-bottom 20px
+
+.contacts
+  &-wrapper
+    position relative
+  &-item
+    position absolute
+    left 0
+    top 0
+    z-index -1
+    visibility hidden
+    pointer-events none
+    opacity 0
+    &.active
+      position relative
+      transition $tr
+      z-index 4
+      visibility visible
+      pointer-events all
+      opacity 1
