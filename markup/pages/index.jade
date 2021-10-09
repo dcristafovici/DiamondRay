@@ -9,6 +9,7 @@ html(class="no-js", lang="ru")
   include ../components/any/any
   include ../components/reviews/reviews
   include ../components/partners/partners
+  include ../components/footer/footer
   head
     +head(head.defaults)
   body.page
@@ -29,6 +30,8 @@ html(class="no-js", lang="ru")
       +reviews()
 
       +partners()
+
+      +footer()
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();
