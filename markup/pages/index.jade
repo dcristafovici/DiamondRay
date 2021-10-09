@@ -7,6 +7,8 @@ html(class="no-js", lang="ru")
   include ../components/around/around
   include ../components/examples/examples
   include ../components/any/any
+  include ../components/reviews/reviews
+  include ../components/partners/partners
   head
     +head(head.defaults)
   body.page
@@ -23,6 +25,10 @@ html(class="no-js", lang="ru")
       +examples()
 
       +any()
+
+      +reviews()
+
+      +partners()
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();
