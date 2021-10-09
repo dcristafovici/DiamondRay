@@ -3,6 +3,7 @@ html(class="no-js", lang="ru")
 
   include ../components/head/head
   include ../components/header/header
+  include ../components/home/home
   head
     +head(head.defaults)
   body.page
@@ -11,6 +12,8 @@ html(class="no-js", lang="ru")
     main.diamond-main
 
       +header()
+
+      +home()
       
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
