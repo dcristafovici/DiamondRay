@@ -1,0 +1,45 @@
+.numbers
+  padding-bottom 80px
+  &-wrapper
+    display flex
+    justify-content space-between
+  &-left
+    width 34.7222222222%
+  &-right
+    width 64.3518518519%
+    h4
+      margin-bottom 10px
+    p
+      margin-bottom 20px
+  &-items
+    display flex
+    flex-wrap wrap
+  &-item
+    width 45%
+    &__top
+      span
+        &:first-child
+          font-size 56px
+          font-family $Extra
+          color $BK_ONE
+          margin-right 5px
+    &__btm
+      p
+        font-size 14px
+        color $BK_ONE
+        font-family $Medium
+      li
+        font-size 14px
+        font-family $Medium
+        color $BK_ONE
+        margin-bottom 5px
+        padding-left 20px
+        position relative
+        &::before
+          content ''
+          position absolute
+          left 0
+          top 3px
+          width 16px
+          height 16px
+          background url('../img/assets/numbers/pin.svg') no-repeat center/contain
