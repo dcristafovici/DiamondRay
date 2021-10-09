@@ -1,0 +1,24 @@
+include ../button/button
+mixin header(data)
+  header.header
+    .content.max-full
+      .header-wrapper
+        .header-left
+          a(href="index.html").header-logo
+            img(src="static/img/assets/header/logo.svg", alt="Logo") 
+        .header-right
+          nav.menu
+            ul
+              li
+                a(href="#") О нас
+              li
+                a(href="#") Услуги
+              li
+                a(href="#") Работы
+              li
+                a(href="#") Блог
+              li
+                a(href="#") Контакты
+          .header-button
+            +button('#','Обратный звонок')
+            

@@ -1,0 +1,42 @@
+.header
+  height 100px
+  position fixed
+  left 0
+  top 0
+  width 100%
+  z-index 3
+  .content
+    height 100%
+  &-wrapper
+    height 100%
+    display flex
+    justify-content space-between
+    align-items center
+  &-logo
+    display flex
+    align-items center
+    height 60px
+    img
+      height 100%
+      object-fit contain
+  &-right
+    display flex
+    align-items center
+nav.menu
+  ul
+    display flex
+    align-items center
+    margin-right 120px
+    li
+      margin-right 100px
+      &:last-child
+        margin-right 0
+    a
+      display inline-flex
+      height 60px
+      font-size 12px
+      line-height 1.55
+      font-family $Semi
+      color $wh
+      text-transform uppercase
+      align-items center
