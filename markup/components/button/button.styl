@@ -7,9 +7,18 @@
   padding-right 12px
   bb()
   border: 1px solid $wh
-  transition background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out property timing-function
+  transition all .3s ease-in-out
   span
     font-family $Medium
+    transition all .3s ease-in-out
     color $wh
     font-size 14px
     
+  &.button-black
+    border 1px solid $BK_ONE
+    span
+      color $BK_ONE
+    &:hover
+      background $BK_ONE
+      span
+        color $wh
