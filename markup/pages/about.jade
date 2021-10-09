@@ -5,6 +5,7 @@ html(class="no-js", lang="ru")
   include ../components/header/header
   include ../components/create/create
   include ../components/numbers/numbers
+  include ../components/design/design
   head
     +head(head.defaults)
   body.page
@@ -18,6 +19,11 @@ html(class="no-js", lang="ru")
 
       +numbers()
 
+      +design()
+
+      +numbers()
+
+      +design()
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();
 
