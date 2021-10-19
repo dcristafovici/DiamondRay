@@ -1,0 +1,31 @@
+mixin works(data)
+  section.works
+    .content.medium-full
+      .title
+        h2 Наши работы
+      .blog-items
+        //- Blog Item
+        .blog-item
+          .blog-item__photo
+            img(src="static/img/assets/works/w1.webp", alt="Blog")
+          .blog-item__content
+            .blog-item__name 
+              h4 Премия Архтайга 2020
+            .blog-item__text
+              p Интерьер квартиры «Карамель» по проекту дизайнеров Елены Блиновой и Юлии Костыревой номинирован на премию
+            .blog-item__next
+              +button('#','Подробнее')
+        //- Blog Item
+        .blog-item
+          .blog-item__photo
+            img(src="static/img/assets/works/w2.webp", alt="Blog")
+          .blog-item__content
+            .blog-item__name 
+              h4 В новый год в новый офис!
+            .blog-item__text
+              p Интерьер квартиры «Карамель» по проекту дизайнеров Елены Блиновой и Юлии Костыревой номинирован на премию
+            .blog-item__next
+              +button('#','Подробнее')
+      
+      .works-all
+        +button('#','Смотреть все работы')
