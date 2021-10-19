@@ -1,9 +1,11 @@
 doctype html
 html(class="no-js", lang="ru")
 
-  include ../components/head/head
+  include ../components/head/head 
   include ../components/header/header
-  include ../components/blog/blog
+  include ../components/arh/arh
+  include ../components/steps/steps
+  include ../components/footer/footer
   head
     +head(head.defaults)
   body.page
@@ -12,8 +14,12 @@ html(class="no-js", lang="ru")
     main.diamond-main.diamond-top
 
       +header().header-black
+      
+      +arh()
 
-      +blog()
+      +steps()
+
+      +footer()
 
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')

@@ -1,0 +1,63 @@
+.arh
+  &-wrapper
+    display flex
+    justify-content space-between
+    align-items center
+  &-right
+    width calc(100% - 550px)
+  &-left
+    width 500px
+    h2
+      color $BK_ONE
+      text-align right
+      font-size 45px
+      line-height 1.2
+      margin-bottom 40px
+    p
+      text-align right
+      font-size 20px
+      line-height 1.5
+      color $BK_ONE
+      font-family $Reg
+
+
+  &-bottom
+    display flex
+    justify-content space-between
+    align-items center
+  &-btm
+    &__left
+      width 43.0357142857%
+      height 700px
+      img
+        height 100%
+        width 100%
+        object-fit cover
+    &__right
+      width 49.4047619048%
+      padding-right 10%
+      bb()
+      img
+        height 100%
+      h2
+        color $BK_ONE
+        margin-bottom 20px
+      p
+        margin-bottom 30px
+        font-size 16px
+        line-height 1.55
+        color $BK_ONE
+      a
+        font-size 12px
+        line-height 1.5
+        font-family $Semi
+        color $BK_ONE
+        text-transform uppercase
+        display flex
+        align-items center
+        &:hover
+          img
+            transform translateX(10px)
+        img 
+          margin-left 10px
+          transition all .3s ease-in-out
