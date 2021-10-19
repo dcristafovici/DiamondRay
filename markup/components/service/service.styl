@@ -1,0 +1,40 @@
+.service
+  position relative
+  height 640px
+  &-video
+    position absolute
+    left 0
+    top 0
+    width 100%
+    height 100%
+    &::before
+      content ''
+      position absolute
+      left 0
+      top 0
+      width 100%
+      height 100%
+      background #000
+      opacity 0.5
+    video
+      width 100%
+      height 100%
+      object-fit cover
+  .content
+    position relative
+    height 100%
+    display flex
+    flex-direction column
+    align-items flex-start
+    justify-content center
+    h2
+      font-family $Extra
+      margin-bottom 30px
+    p
+      color $wh
+      font-size 14px
+      font-family $Medium
+      max-width 720px
+      margin-bottom 30px
+      &:last-child
+        margin-bottom 0

@@ -40,7 +40,7 @@ module.exports = () => {
                             }
                         }))
                         .pipe(cache('eslint'))
-                        .pipe(eslint())
+                        // .pipe(eslint())
                         .pipe(eslint.formatEach())
                         .pipe(eslint.failAfterError());
             }
