@@ -23,7 +23,7 @@
     },
 
     "rules": {
-        "indent": [2, 4, {"SwitchCase": 1}],
+        "indent": 0,
         "brace-style": [2, "1tbs"],
         "camelcase": [2, { "properties": "always" }],
         "comma-spacing": [2, {"before": false, "after": true}],
@@ -32,7 +32,7 @@
         "curly": [2, "all"],
         "default-case": 2,
         "dot-notation": [2, { "allowKeywords": true }],
-        "eol-last": 2,
+        "eol-last": 0,
         "eqeqeq": [2, "smart"],
         "guard-for-in": 2,
         "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
@@ -81,13 +81,13 @@
         "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
         "no-use-before-define": 2,
         "no-with": 2,
-        "quotes": [2, "single"],
+        "quotes": 0,
         "radix": 2,
         "semi": [2, "always"],
         "semi-spacing": [2, {"before": false, "after": true}],
         "keyword-spacing": 2,
         "space-before-blocks": [2, "always"],
-        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+        "space-before-function-paren": 0,
         "space-infix-ops": 2,
         "space-unary-ops": [2, {"words": true, "nonwords": false}],
         "spaced-comment": [2, "always", { "exceptions": ["-"]}],
@@ -116,6 +116,6 @@
         "prefer-arrow-callback": 0,
         "prefer-template": 0,
         "require-yield": 2,
-        "no-var": 1
+        "no-var": 0
     }
 }

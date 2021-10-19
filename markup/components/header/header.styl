@@ -1,6 +1,6 @@
 .header
   height 100px
-  position fixed
+  position absolute
   left 0
   top 0
   width 100%
@@ -40,3 +40,29 @@ nav.menu
       color $wh
       text-transform uppercase
       align-items center
+
+
+.header-fixed
+  position fixed
+  left 0
+  top 0
+  width 100%
+  z-index 30
+  height 70px
+  background $wh
+  opacity 0.95
+  transform translateY(-100%)
+  transition all .3s ease-in-out
+  &.is-active
+    transform translateY(0)
+  .content
+    height 100%
+  nav.menu ul a
+    color $BK_ONE
+
+  
+
+header.header-black
+  display none
+  + .header-fixed
+    transform translateY(0)

@@ -1,6 +1,6 @@
 include ../button/button
 mixin header(data)
-  header.header
+  header.header&attributes(attributes)
     .content.max-full
       .header-wrapper
         .header-left
@@ -21,4 +21,25 @@ mixin header(data)
                 a(href="#") Контакты
           .header-button
             +button('#popup','Обратный звонок')(data-fancybox)
-            
+  
+  .header-fixed
+    .content.max-full
+      .header-wrapper
+        .header-left
+          a(href="index.html").header-logo
+            img(src="static/img/assets/header/logo-bk.svg", alt="Logo") 
+        .header-right
+          nav.menu
+            ul
+              li
+                a(href="#") О нас
+              li
+                a(href="#") Услуги
+              li
+                a(href="#") Работы
+              li
+                a(href="#") Блог
+              li
+                a(href="#") Контакты
+          .header-button
+            +button('#popup','Обратный звонок')(data-fancybox).button-black
