@@ -1,0 +1,20 @@
+mixin selection(data)
+  section.selection
+    .content
+      .selection-wrapper
+
+        .selection-left
+          span Покупаете квартиру, и не можете определиться с планировкой?
+          h2 Помощь дизайнера 
+            br
+            |  в выборе квартиры
+          ul
+            li ● Проведем анализ и разбор 2 - 3х имеющихся вариантов планировок
+            li ● Дадим рекомендации по зонированию с учетом ваших предпочтений
+            li ● Встретитесь с дизайнером в нашей студии, для помощи с выбором
+          .selection-action
+            +button('#','Записаться').button-filled
+            a(href="#") Наши работы 
+              img(src="static/img/assets/selection/arrow.svg", alt="Arrow")
+        .selection-right
+          img(src="static/img/assets/selection/s1.webp", alt="Selection")
