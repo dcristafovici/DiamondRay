@@ -6,6 +6,9 @@ html(class="no-js", lang="ru")
   include ../components/selection/selection
   include ../components/consultation/consultation
   include ../components/complex/complex
+  include ../components/portfolio/portfolio
+  include ../components/steps/steps
+  include ../components/around/around
   include ../components/footer/footer
   head
     +head(head.defaults)
@@ -21,6 +24,12 @@ html(class="no-js", lang="ru")
       +consultation()
 
       +complex()     
+
+      +portfolio()
+
+      +around()
+
+      +steps()
  
       +footer()
 
