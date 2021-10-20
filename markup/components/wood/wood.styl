@@ -1,0 +1,47 @@
+.wood
+  position relative
+  height calc(100vh - 70px)
+  margin-bottom 30px
+  &-image
+    position absolute
+    width 100%
+    height 100%
+    img
+      height 100%
+      object-fit cover
+      width 100%
+
+  .content
+    position relative
+    z-index 3
+    padding-top 10vh
+    height 100%
+    bb()
+    > span
+      display block
+      margin-bottom 30px
+      color $BK_ONe
+      font-size 20px
+      font-family $Semi
+      line-height 1.2
+    h1
+      color $BK_ONE
+      text-transform none
+      line-height 1.2
+  &-items
+    position absolute
+    bottom 5vh
+    width 100%
+    display flex
+    justify-content space-between
+    align-items center
+    max-width 1270px
+    left 50%
+    transform translateX(-50%)
+  &-item
+    span
+      display block
+      color $wh
+      font-size 20px
+      font-family $Semi
+      line-height 1.5
