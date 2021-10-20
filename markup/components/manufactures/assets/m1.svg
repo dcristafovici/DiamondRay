@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   baseProfile="tiny"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="915"
+   height="230"
+   viewBox="0 0 442.919 106.3"
+   xml:space="preserve"
+   sodipodi:version="0.32"
+   inkscape:version="0.45+0.46pre0+devel"
+   sodipodi:docname="Honkarakenne.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata28"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format></dc:format><dc:type
+         rdf:resource="" /><dc:title></dc:title><dc:date></dc:date><dc:creator><cc:Agent><dc:title></dc:title></cc:Agent></dc:creator><dc:rights><cc:Agent><dc:title></dc:title></cc:Agent></dc:rights><dc:publisher><cc:Agent><dc:title></dc:title></cc:Agent></dc:publisher><dc:identifier></dc:identifier><dc:source></dc:source><dc:relation></dc:relation><dc:language></dc:language><dc:subject><rdf:Bag /></dc:subject><dc:coverage></dc:coverage><dc:description></dc:description><dc:contributor><cc:Agent><dc:title></dc:title></cc:Agent></dc:contributor><cc:license
+         rdf:resource="" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs26"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="-50 : 600 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="700 : 600 : 1"
+   inkscape:persp3d-origin="300 : 400 : 1"
+   id="perspective30" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   inkscape:window-height="712"
+   inkscape:window-width="1112"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="false"
+   inkscape:zoom="1.2282155"
+   inkscape:cx="435.77914"
+   inkscape:cy="103.35879"
+   inkscape:window-x="161"
+   inkscape:window-y="161"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g2418"
+   transform="matrix(1.0426553,0,0,1.0426553,-0.2241559,-1.760093)"><path
+     d="M 0,11.339 C 0,5.077 5.076,0 11.338,0 L 413.858,0 C 420.12,0 425.197,5.077 425.197,11.339 L 425.197,94.961 C 425.197,101.223 420.12,106.3 413.858,106.3 L 11.338,106.3 C 5.076,106.3 0,101.223 0,94.961 L 0,11.339 L 0,11.339 z"
+     id="path9" /><path
+     d="M 3.543,12.047 C 3.543,7.351 7.35,3.543 12.047,3.543 L 413.149,3.543 C 417.846,3.543 421.653,7.351 421.653,12.047 L 421.653,94.253 C 421.653,98.948 417.846,102.757 413.149,102.757 L 12.047,102.757 C 7.35,102.757 3.543,98.948 3.543,94.253 L 3.543,12.047 L 3.543,12.047 z"
+     id="path11"
+     style="fill:#ffe300" /><path
+     d="M 329.541,17.592 L 349.003,17.592 C 349.801,25.627 356.594,31.902 364.856,31.902 C 373.118,31.902 379.911,25.627 380.709,17.592 L 400.344,17.592 L 400.344,51.151 L 380.816,51.151 C 379.837,43.307 373.133,37.236 365.008,37.236 C 356.882,37.236 350.178,43.306 349.2,51.151 L 329.542,51.151 L 329.542,17.592 L 329.541,17.592 z"
+     id="path13" /><path
+     d="M 329.605,54.9 L 349.172,54.9 C 350.053,62.847 356.806,69.03 365.006,69.03 C 373.205,69.03 379.958,62.847 380.839,54.9 L 400.406,54.9 L 400.406,88.459 L 380.707,88.459 C 379.912,80.422 373.118,74.144 364.854,74.144 C 356.59,74.144 349.796,80.422 349.001,88.459 L 329.604,88.459 L 329.604,54.9 L 329.605,54.9 z"
+     id="path15" /><polygon
+     points="62.403,24.754 76.524,24.754 76.524,81.41 62.403,81.41 62.403,58.752 38.914,58.785 38.914,81.447 24.792,81.447 24.792,24.792 38.914,24.792 38.914,47.454 62.403,47.421 62.403,24.754 "
+     id="polygon17" /><path
+     d="M 94.127,53.148 C 94.127,62.329 101.568,69.769 110.748,69.769 C 119.928,69.769 127.37,62.329 127.37,53.148 C 127.37,43.968 119.929,36.527 110.748,36.527 C 101.568,36.528 94.127,43.969 94.127,53.148 L 94.127,53.148 z M 80.448,52.965 C 80.448,36.136 94.091,22.492 110.92,22.492 C 127.75,22.492 141.393,36.136 141.393,52.965 C 141.393,69.795 127.75,83.438 110.92,83.438 C 94.09,83.438 80.448,69.795 80.448,52.965 L 80.448,52.965 z"
+     id="path19" /><polygon
+     points="145.293,81.439 159.473,81.439 159.472,47.017 159.625,47.017 187.561,81.447 201.986,81.447 201.985,24.754 187.56,24.754 187.812,59.039 187.66,59.039 160.101,24.768 145.293,24.768 145.293,81.439 "
+     id="polygon21" /><path
+     d="M 295.989,71.605 L 275.677,71.605 L 271.765,81.447 L 262.19,81.447 L 256.119,81.447 L 244.409,81.447 L 223.274,57.308 L 223.274,81.401 L 209.1,81.401 L 209.1,24.754 L 223.274,24.754 L 223.274,48.932 L 244.409,24.889 L 262.19,24.801 L 237.38,53.113 L 257.973,76.633 L 277.935,24.8 L 294.034,24.8 L 315.398,81.447 L 299.675,81.447 L 295.989,71.605 L 295.989,71.605 z M 292.003,60.331 L 285.984,42.301 L 279.74,60.331 L 292.003,60.331 L 292.003,60.331 z"
+     id="path23" /></g>
+</svg>
