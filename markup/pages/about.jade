@@ -9,6 +9,7 @@ html(class="no-js", lang="ru")
   include ../components/design/design
   include ../components/responsibility/responsibility
   include ../components/gallery/gallery
+  include ../components/footer/footer
   head
     +head(head.defaults)
   body.page
@@ -29,6 +30,8 @@ html(class="no-js", lang="ru")
       +responsibility()
 
       +gallery()
+
+      +footer().footer-black
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();

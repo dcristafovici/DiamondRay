@@ -1,6 +1,10 @@
 .footer
   padding-top 80px
   padding-bottom 80px
+  &-logo
+    img
+      &:nth-child(2)
+        display none
   &-wrapper
     display flex
     justify-content space-between
@@ -18,6 +22,7 @@
       display block
       font-size 16px
   &-right
+    width 30%
     h2
       color $BK_ONE
 
@@ -42,3 +47,83 @@
   &-info
     font-size 16px
     font-family $Light
+
+
+.footer
+  &-btm
+    display flex
+    align-items center
+    margin-top 30px
+    > .button
+      padding-left 30px
+      padding-right 30px
+  &-socials
+    margin-left 30px
+    ul
+      display flex  
+      align-items center
+      li
+        margin-right 20px
+        &:last-child
+          margin-right 0
+        a
+          display flex
+          justify-content center
+          align-items center
+          width 24px  
+          height 24px
+          transition $tr
+          &:hover
+            transform translateY(-5px)
+          img
+            width 100%
+            height 100%
+            object-fit contain
+            &:nth-child(2)
+              display none
+
+.footer.footer-black
+  background $BK_ONE
+  .footer
+    &-left
+      color $wh
+    &-info
+      color $wh
+      a
+        color $wh
+    &-right
+      h2
+        color $wh
+      input,
+      textarea
+        border-bottom 1px solid $wh
+        color $wh
+      .button.button-black
+        border 1px solid $wh
+        &:hover
+          background $wh
+          span
+            color $BK_ONE
+        span
+          color $wh
+    &-logo
+      img
+        &:nth-child(1)
+          display none
+        &:nth-child(2)
+          display block
+    &-btm
+      .button.button-black
+        border: 1px solid $wh
+        span
+          color $wh
+        &:hover
+          background $wh
+          span
+            color $BK_ONE
+      ul
+        li
+          img
+            display none
+            &:nth-child(2)
+              display flex

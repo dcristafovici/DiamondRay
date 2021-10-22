@@ -4,7 +4,6 @@ $(document).ready(function(){
   reviewsSlides.slick({
     slidesToShow: 1,
     fade: true,
-    arrows: false
   })
 
 })

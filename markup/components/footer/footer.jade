@@ -1,10 +1,12 @@
+include ../button/button
 mixin footer(data)
-  footer.footer
+  footer.footer&attributes(attributes)
     .content.medium-full
       .footer-wrapper
         .footer-left
           .footer-logo
             img(src="static/img/assets/footer/footer.svg", alt="Footer")
+            img(src="static/img/assets/footer/footer-wh.svg", alt="Footer")
           .footer-info
             a(href="tel:+7 499 647-77-17") +7 499 647-77-17
             a(href="mailto:project@diamondray.ru") project@diamondray.ru 
@@ -12,8 +14,32 @@ mixin footer(data)
             address г. Москва, ул Большая Грузинская 30А, 
               br
               | стр. 1, к 111
+          .footer-btm
+            +button('#','На карте').button-black
+            .footer-socials
+              ul
+                li
+                  a(href="https://www.instagram.com/diamondray.ru/" rel='nofollow' target="_blank")
+                    img(src="static/img/assets/footer/f1.svg", alt="Footer svg")
+                    img(src="static/img/assets/footer/f1-wh.svg", alt="Footer svg")
+                li
+                  a(href="https://www.facebook.com/archgroupdiamondray" rel='nofollow' target="_blank")
+                    img(src="static/img/assets/footer/f2.svg", alt="Footer svg")
+                    img(src="static/img/assets/footer/f2-wh.svg", alt="Footer svg")
+                li
+                  a(href="https://vk.com/archgroupdiamondray" rel='nofollow' target="_blank")
+                    img(src="static/img/assets/footer/f3.svg", alt="Footer svg")
+                    img(src="static/img/assets/footer/f3-wh.svg", alt="Footer svg")
+                li
+                  a(href="https://www.youtube.com/channel/UCXpFigjVHFF_4ECHGOhnIdQ" rel='nofollow' target="_blank")
+                    img(src="static/img/assets/footer/f4.svg", alt="Footer svg")
+                    img(src="static/img/assets/footer/f4-wh.svg", alt="Footer svg")
         .footer-right
-          h2 Поговорим о вашем проекте?
+          h2 Поговорим  
+            br
+            | о вашем 
+            br
+            | проекте?
           .footer-form
             .form-group
               input(type="text" placeholder="Ваше имя")
