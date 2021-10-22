@@ -4,6 +4,7 @@ html(class="no-js", lang="ru")
   include ../components/head/head
   include ../components/header/header
   include ../components/blog/blog
+  include ../components/footer/footer
   head
     +head(head.defaults)
   body.page
@@ -14,6 +15,8 @@ html(class="no-js", lang="ru")
       +header().header-black
 
       +blog()
+
+      +footer().footer-black
 
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
