@@ -6,6 +6,7 @@
     width 42.5925925926%
     h2
       color #000
+      font-size 40px
       line-height 1.2
       margin-bottom 20px
     p
@@ -13,3 +14,27 @@
       color: rgba(0,0,0,0.6)
       line-height 1.5
       font-family $Medium
+
+  &-wrapper
+    display flex
+    justify-content space-between
+  &--left
+    width 48%
+  &-right
+    width 50%
+  &-right
+    background $BK_THREE
+    padding-left 30px
+    padding-right 30px
+
+  .form-row
+    align-items flex-end
+    .form-group
+      width 32%
+  &-right
+    display flex
+    align-items center
+    .button
+      width 100%
+      justify-content center
+      height 44px
