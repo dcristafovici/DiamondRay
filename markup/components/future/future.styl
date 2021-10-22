@@ -1,0 +1,43 @@
+.future
+  text-align center
+  padding-bottom 100px
+  h2
+    color $BK_ONE
+    font-size 40px
+    margin-bottom 30px
+  .title
+    margin-bottom 80px
+
+  .future
+    &-rows
+      margin-bottom -20px
+    &-row
+      display flex
+      margin-bottom 20px
+      position relative
+      &:nth-child(2n)
+        flex-direction row-reverse
+        .future-item
+          &:nth-child(2),
+          &:nth-child(3)
+            right auto
+            left 0
+    &-item
+      img
+        width 100%
+        height 100%
+        object-fit cover
+      &:nth-child(1)
+        display block
+        width calc(50% - 5px)
+        height 80vh
+      &:nth-child(2),
+      &:nth-child(3)
+        position absolute
+        right 0
+        top 0
+        width calc(50% - 5px)
+        height calc(50% - 5px)
+      &:nth-child(3)
+        top auto
+        bottom 0

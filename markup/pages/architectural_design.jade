@@ -7,6 +7,8 @@ html(class="no-js", lang="ru")
   include ../components/steps/steps
   include ../components/dream/dream
   include ../components/passage/passage
+  include ../components/future/future
+  include ../components/realised/realised
   include ../components/footer/footer
   head
     +head(head.defaults)
@@ -19,13 +21,17 @@ html(class="no-js", lang="ru")
       
       +arh()
 
-      +steps()
-
       +dream()
 
       +passage()
 
-      +footer()
+      +steps()
+
+      +future()
+      
+      +realised()
+
+      +footer().footer-black
 
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
